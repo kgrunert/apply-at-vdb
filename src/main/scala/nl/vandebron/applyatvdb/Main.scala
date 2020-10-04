@@ -1,4 +1,4 @@
-package nl.vandebron.applytovdb
+package nl.vandebron.applyatvdb
 
 import cats.effect.{ContextShift, ExitCode, IO, IOApp}
 import org.http4s.server.blaze.BlazeServerBuilder

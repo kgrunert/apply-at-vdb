@@ -24,14 +24,10 @@ lazy val root = (project in file("."))
   )
 
 graalVMNativeImageOptions ++= Seq(
-//  "-H:+PrintClassInitialization",
-//  "-H:+ReportExceptionStackTraces",
   "--no-fallback",
   "--allow-incomplete-classpath",
   "-H:ResourceConfigurationFiles=../../configs/resource-config.json",
   "-H:ReflectionConfigurationFiles=../../configs/reflect-config.json",
   "-H:JNIConfigurationFiles=../../configs/jni-config.json",
   "-H:DynamicProxyConfigurationFiles=../../configs/proxy-config.json"
-  //  "-H:ConfigurationFileDirectories=../../configs/"
-  // "--report-unsupported-elements-at-runtime"
 )

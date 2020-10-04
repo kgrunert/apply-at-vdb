@@ -1,4 +1,4 @@
-package nl.vandebron.applytovdb
+package nl.vandebron.applyatvdb
 
 import java.nio.charset.StandardCharsets
 import java.{util => ju}

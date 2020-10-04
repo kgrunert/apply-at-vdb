@@ -1,4 +1,4 @@
-package nl.vandebron.applytovdb
+package nl.vandebron.applyatvdb
 
 import cats.effect.{ContextShift, IO}
 import io.circe.generic.auto._
