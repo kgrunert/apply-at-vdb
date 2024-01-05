@@ -44,6 +44,7 @@ object Main extends IOApp {
         .as(ExitCode.Success)
   } yield fiber
 
+
   def run(args: List[String]): IO[ExitCode] =
     program.attempt.unsafeRunSync match {
       case Left(e) =>
